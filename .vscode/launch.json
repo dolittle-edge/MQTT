@@ -26,7 +26,7 @@
           "quoteArgs": true
         },
         "sourceFileMap": {
-          "/app": "${workspaceFolder}/modules/Arundo"
+          "/app": "${workspaceFolder}/modules/MQTT"
         },
         "justMyCode": true
       },
@@ -34,9 +34,9 @@
         "name": "IdentityMapper Local Debug (.NET Core)",
         "type": "coreclr",
         "request": "launch",
-        "program": "${workspaceRoot}/modules/Arundo/bin/Debug/netcoreapp2.1/Dolittle.Edge.Arundo.dll",
+        "program": "${workspaceRoot}/modules/MQTT/bin/Debug/netcoreapp2.1/Dolittle.Edge.MQTT.dll",
         "args": [],
-        "cwd": "${workspaceRoot}/modules/Arundo",
+        "cwd": "${workspaceRoot}/modules/MQTT",
         "internalConsoleOptions": "openOnSessionStart",
         "stopAtEntry": false,
         "console": "internalConsole",
