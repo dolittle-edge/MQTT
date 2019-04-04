@@ -33,14 +33,14 @@
           }
         },
         "modules": {
-          "Arundo": {
+          "MQTT": {
             "version": "1.0",
             "type": "docker",
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "dolittle/edge-arundo:1.1.0-amd64",
-              "createOptions": "{\"HostConfig\":{}}"
+              "image": "dolittle/edge-mqtt:1.0.0-amd64",
+              "createOptions": "{\"HostConfig\":{\"PortBindings\":{\"1883/tcp\":[{\"HostPort\":\"1883\"}]}}}"
             }
           }
         }
@@ -50,7 +50,7 @@
       "properties.desired": {
         "schemaVersion": "1.0",
         "routes": {
-          "ArundoToCloud": "FROM /messages/modules/Arundo/outputs/* INTO $upstream"
+          "MQTTToCloud": "FROM /messages/modules/MQTT/outputs/* INTO $upstream"
         },
         "storeAndForwardConfiguration": {
           "timeToLiveSecs": 7200

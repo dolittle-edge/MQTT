@@ -54,7 +54,7 @@
                     }
                 },
                 "modules": {
-                    "Arundo": {
+                    "MQTT": {
                         "version": "1.0",
                         "type": "docker",
                         "status": "running",
@@ -62,7 +62,15 @@
                         "settings": {
                             "image": "${MODULES.MQTT}",
                             "createOptions": {
-                                "HostConfig": {}
+                                "HostConfig": {
+                                    "PortBindings": {
+                                        "1883/tcp": [
+                                            {
+                                                "HostPort": "1883"
+                                            }
+                                        ]
+                                    }
+                                }
                             }
                         }
                     }

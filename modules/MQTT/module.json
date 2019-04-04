@@ -4,7 +4,7 @@
     "image": {
         "repository": "dolittle/edge-mqtt",
         "tag": {
-            "version": "1.0.0",
+            "version": "1.0.5",
             "platforms": {
                 "amd64": "./Dockerfile"
             }
