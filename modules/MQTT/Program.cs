@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 using Dolittle.Edge.Modules.Booting;
 
-namespace Dolittle.Edge.Arundo
+namespace Dolittle.Edge.MQTT
 {
     class Program
     {
