@@ -18,4 +18,4 @@ COPY --from=build-env /app/modules/MQTT/out ./
 #RUN useradd -ms /bin/bash moduleuser
 #USER moduleuser
 
-ENTRYPOINT ["dotnet", "Dolittle.Edge.MQTT.dll"]
+ENTRYPOINT ["dotnet", "Dolittle.TimeSeries.MQTT.dll"]

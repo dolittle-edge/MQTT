@@ -6,7 +6,7 @@ using MQTTnet;
 using MQTTnet.Server;
 using Dolittle.DependencyInversion;
 
-namespace Dolittle.Edge.MQTT
+namespace Dolittle.TimeSeries.MQTT
 {
     /// <summary>
     /// Provides bindings for the module

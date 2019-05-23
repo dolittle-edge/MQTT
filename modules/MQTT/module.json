@@ -2,7 +2,7 @@
     "$schema-version": "0.0.1",
     "description": "",
     "image": {
-        "repository": "dolittle/edge-mqtt",
+        "repository": "dolittle/timeseries-mqtt",
         "tag": {
             "version": "1.0.5",
             "platforms": {

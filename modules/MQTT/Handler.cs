@@ -5,13 +5,13 @@
 using System;
 using System.Text;
 using System.Threading.Tasks;
-using Dolittle.Edge.Modules;
+using Dolittle.TimeSeries.Modules;
 using Dolittle.Logging;
 using Dolittle.Serialization.Json;
 using MQTTnet;
 using MQTTnet.Server;
 
-namespace Dolittle.Edge.MQTT
+namespace Dolittle.TimeSeries.MQTT
 {
     /// <summary>
     /// 

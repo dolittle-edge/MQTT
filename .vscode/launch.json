@@ -34,7 +34,7 @@
         "name": "IdentityMapper Local Debug (.NET Core)",
         "type": "coreclr",
         "request": "launch",
-        "program": "${workspaceRoot}/modules/MQTT/bin/Debug/netcoreapp2.1/Dolittle.Edge.MQTT.dll",
+        "program": "${workspaceRoot}/modules/MQTT/bin/Debug/netcoreapp2.1/Dolittle.TimeSeries.MQTT.dll",
         "args": [],
         "cwd": "${workspaceRoot}/modules/MQTT",
         "internalConsoleOptions": "openOnSessionStart",
