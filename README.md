@@ -64,7 +64,7 @@ In your `deployment.json` file, you will need to add the module. For more detail
     "status": "running",
     "restartPolicy": "always",
     "settings": {
-        "image": "dolittle/edge-mqtt",
+        "image": "dolittle/timeseries-mqtt",
         "createOptions": {
         "HostConfig": {}
     }
